@@ -1,0 +1,54 @@
+.Title{
+    display: flex;
+    background-color: bisque;
+    padding: 8px auto;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    width: 300px;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #08eb39;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    flex: 2 2 10%;
+    margin: 10px auto;
+}
+
+.recipes {
+    list-style: none;
+    flex-direction: row;
+    flex:auto
+
+}
+
+.hotdog {
+    font-size: 20px;
+    padding: 10px;
+    background-color:rgb(241, 226, 3);
+    width: 100px;
+}
+
+.lasagna {
+    font-size: 20px;
+    background-position: center;
+    background-color: rgb(60, 255, 0);
+    background-size: 90%;
+    border:20px;
+    padding: 10px;
+    width: 100px;
+
+}
+
+.pizza {
+    font-size: 20px;
+    padding: 10px;
+    background-color:rgb(3, 114, 241);
+    width: 100px;
+
+}
